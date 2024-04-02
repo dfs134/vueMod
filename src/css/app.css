@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-style: initial;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+div,
+span,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+table,
+tr,
+th,
+td {
+  font-family: 'Gmarket Sans';
+  color: #000000;
+}
+
+.w-500 {
+  width: 500px;
+}
+
+.w-250 {
+  width: 250px;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+.txt-light {
+  font-weight: 300;
+}
+
+.txt-medium {
+  font-weight: 400;
+}
+
+.txt-bold {
+  font-weight: 500;
+}
+
+.txt-20 {
+  font-size: 20px;
+}
+
+.txt-25 {
+  font-size: 25px;
+}
+
+.txt-40 {
+  font-size: 40px;
+}
+
+.txt-30 {
+  font-size: 30px;
+}
+
+.txt-70 {
+  font-size: 70px;
+}
+
+.txt-18 {
+  font-size: 18px;
+}
+
+.bg-black {
+  color: #000;
+}
+
+.bg-white {
+  color: #fff;
+}
+
+.bg-green {
+  color: #fff !important;
+}
+
+.bg-light {
+  background-color: #F4F5F9;
+}
+
+.border-2 {
+  border: 2px solid #7DC242 !important;
+  background-color: #7DC242 !important;
+}
+
+.zidx-2 {
+  z-index: 2;
+}
+
+#app {
+  max-width: 1920px;
+  border: 1px solid;
+  position: relative;
+}
+
+#app main {
+  min-height: 1080px;
+}
+
+#app main::-webkit-scrollbar {
+  display: none;
+}
+
+.top-text {
+  font-size: 1.7rem;
+  color: black;
+  font-weight: bold;
+  margin: 0 150px;
+  padding: 70px 0;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 84.72px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.contain {
+  margin: 0 160px 0 140px;
+}
+
+/* 간호사 호출 */
+.nurse-on-bgColor {
+  background-color: #7DC242 !important;
+}
+
+.nurse-off-bgColor {
+  background-color: #7DC242 !important;
+}
+
+.nurse-on-textColor {
+  color: #fff !important;
+}
+
+.wrap-swiper {
+  background: #EBF5DF;
+}
+
+@media(max-width: 1100px) {
+  .top-text {
+    font-size: 50px;
+    margin: 0 50px;
+  }
+
+  .contain {
+    margin: 0;
+  }
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,300 @@
+[
+  {
+    "idx": 1,
+    "TextList": "DX20230320",
+    "router": "dm09/external_service/child/Pacs",
+    "text": [
+      {
+        "idx": 1,
+        "TextList": "DX-21399-275"
+      },
+      {
+        "idx": 2,
+        "TextList": "DX-45614-274"
+      }
+    ]
+  },
+  {
+    "idx": 2,
+    "TextList": "US20230315",
+    "router": "dm09/external_service/child/Pacs",
+    "text": [
+      {
+        "idx": 1,
+        "TextList": "US-20230313182117352"
+      },
+      {
+        "idx": 2,
+        "TextList": "US-20230313182124984"
+      },
+      {
+        "idx": 3,
+        "TextList": "US-20230313182135336"
+      },
+      {
+        "idx": 4,
+        "TextList": "US-20230313182141554"
+      },
+      {
+        "idx": 5,
+        "TextList": "US-20230313182154009"
+      },
+      {
+        "idx": 6,
+        "TextList": "US-20230313182156938"
+      },
+      {
+        "idx": 7,
+        "TextList": "US-20230313182219756"
+      },
+      {
+        "idx": 8,
+        "TextList": "US-20230313182228588"
+      }
+    ]
+  },
+  {
+    "idx": 3,
+    "TextList": "MR20230314",
+    "router": "dm09/external_service/child/Pacs",
+    "text": [
+      {
+        "idx": 1,
+        "TextList": "MR-1678747923-476"
+      },
+      {
+        "idx": 2,
+        "TextList": "MR-1678747923-477"
+      },
+      {
+        "idx": 3,
+        "TextList": "MR-1678747923-478"
+      },
+      {
+        "idx": 4,
+        "TextList": "MR-1678747923-479"
+      },
+      {
+        "idx": 5,
+        "TextList": "MR-1678747923-502"
+      },
+      {
+        "idx": 6,
+        "TextList": "MR-1678747923-505"
+      },
+      {
+        "idx": 7,
+        "TextList": "MR-1678747923-506"
+      },
+      {
+        "idx": 8,
+        "TextList": "MR-1678747923-507"
+      },
+      {
+        "idx": 9,
+        "TextList": "MR-1678747923-508"
+      },
+      {
+        "idx": 10,
+        "TextList": "MR-1678747923-509"
+      }
+    ]
+  },
+  {
+    "idx": 4,
+    "TextList": "CT20230313",
+    "router": "dm09/external_service/child/Pacs",
+    "text": [
+      {
+        "idx": 1,
+        "TextList": "CT-1678755621-699264"
+      },
+      {
+        "idx": 2,
+        "TextList": "CT-1678755621-726281"
+      },
+      {
+        "idx": 3,
+        "TextList": "CT-1678755621-753090"
+      },
+      {
+        "idx": 4,
+        "TextList": "CT-1678755621-782344"
+      },
+      {
+        "idx": 5,
+        "TextList": "CT-1678755621-837639"
+      },
+      {
+        "idx": 6,
+        "TextList": "CT-1678755621-865949"
+      },
+      {
+        "idx": 7,
+        "TextList": "CT-1678755621-893059"
+      },
+      {
+        "idx": 8,
+        "TextList": "CT-1678755621-950735"
+      },
+      {
+        "idx": 9,
+        "TextList": "CT-1678755621-979048"
+      }
+    ]
+  },
+  {
+    "idx": 5,
+    "TextList": "MR20230309",
+    "router": "dm09/external_service/child/Pacs",
+    "text": [
+      {
+        "idx": 1,
+        "TextList": "MR-1678316165-414"
+      },
+      {
+        "idx": 2,
+        "TextList": "MR-1678316165-415"
+      },
+      {
+        "idx": 3,
+        "TextList": "MR-1678316165-416"
+      },
+      {
+        "idx": 4,
+        "TextList": "MR-1678316165-417"
+      },
+      {
+        "idx": 5,
+        "TextList": "MR-1678316165-418"
+      },
+      {
+        "idx": 6,
+        "TextList": "MR-1678316165-419"
+      },
+      {
+        "idx": 7,
+        "TextList": "MR-1678316165-420"
+      },
+      {
+        "idx": 8,
+        "TextList": "MR-1678316165-421"
+      },
+      {
+        "idx": 9,
+        "TextList": "MR-1678316165-422"
+      },
+      {
+        "idx": 10,
+        "TextList": "MR-1678316165-423"
+      },
+      {
+        "idx": 11,
+        "TextList": "MR-1678316165-425"
+      },
+      {
+        "idx": 12,
+        "TextList": "MR-1678316165-426"
+      },
+      {
+        "idx": 13,
+        "TextList": "MR-1678316165-427"
+      },
+      {
+        "idx": 14,
+        "TextList": "MR-1678316165-428"
+      },
+      {
+        "idx": 15,
+        "TextList": "MR-1678316165-429"
+      },
+      {
+        "idx": 16,
+        "TextList": "MR-1678316165-430"
+      },
+      {
+        "idx": 17,
+        "TextList": "MR-1678316165-431"
+      },
+      {
+        "idx": 18,
+        "TextList": "MR-1678316165-566"
+      },
+      {
+        "idx": 19,
+        "TextList": "MR-1678316165-567"
+      },
+      {
+        "idx": 20,
+        "TextList": "MR-1678316165-568"
+      },
+      {
+        "idx": 21,
+        "TextList": "MR-1678316165-569"
+      },
+      {
+        "idx": 22,
+        "TextList": "MR-1678316165-570"
+      },
+      {
+        "idx": 23,
+        "TextList": "MR-1678316165-571"
+      },
+      {
+        "idx": 24,
+        "TextList": "MR-1678316165-572"
+      },
+      {
+        "idx": 25,
+        "TextList": "MR-1678316165-573"
+      },
+      {
+        "idx": 26,
+        "TextList": "MR-1678316165-574"
+      },
+      {
+        "idx": 27,
+        "TextList": "MR-1678316165-575"
+      },
+      {
+        "idx": 28,
+        "TextList": "MR-1678316165-576"
+      },
+      {
+        "idx": 29,
+        "TextList": "MR-1678316165-577"
+      },
+      {
+        "idx": 30,
+        "TextList": "MR-1678316165-578"
+      }
+    ]
+  },
+  {
+    "idx": 6,
+    "TextList": "DX20230216",
+    "router": "dm09/external_service/child/Pacs",
+    "text": [
+      {
+        "idx": 1,
+        "TextList": "DX--699-49581-234"
+      },
+      {
+        "idx": 2,
+        "TextList": "DX-109-60598-239"
+      },
+      {
+        "idx": 3,
+        "TextList": "DX-280-80638-237"
+      },
+      {
+        "idx": 4,
+        "TextList": "DX-304-30545-235"
+      },
+      {
+        "idx": 5,
+        "TextList": "DX-958-61343-231"
+      }
+    ]
+  }
+]

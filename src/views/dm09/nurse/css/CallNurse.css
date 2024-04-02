@@ -1,0 +1,38 @@
+.top-text {
+  margin-right: 59px;
+}
+
+.top-text img {
+  width: 171px;
+  height: 171px;
+  margin-right: 28px;
+}
+
+.bg-color {
+  background-color: #7DC242;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.bg-color .top-text h1,
+.bg-color .top-text h3 {
+  color: #fff;
+}
+
+.bg-color .top-text h1 {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 84px;
+}
+
+.bg-color .top-text h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.bg-color .nurse-img {
+  align-self: flex-end;
+}

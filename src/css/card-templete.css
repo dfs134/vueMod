@@ -1,0 +1,85 @@
+/* 표준 카드 */
+.standard-card .row a {
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 70px;
+  margin-right: 40px;
+  padding: 0;
+  box-shadow: 4px 4px 10px 5px #33333340;
+}
+
+.standard-card .row a .card {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.standard-card .row a .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* 텍스트 표준 카드 */
+.standard-text-card .row a {
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+  margin-bottom: 110px;
+  margin-right: 40px;
+  padding: 0;
+  box-shadow: 4px 4px 10px 5px #33333340;
+  overflow: inherit;
+}
+
+.standard-text-card .row a .card {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.standard-text-card .row a .card-body p {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+.standard-text-card .row a .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* 작은 카드 */
+.small-card.contain {
+  margin: 0 80px;
+}
+
+.small-card .row a {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin-right: 45px;
+  padding: 0;
+  box-shadow: 4px 4px 10px 5px #33333340;
+}
+
+.small-card .row a .card {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.small-card .row a .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}

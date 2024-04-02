@@ -1,0 +1,26 @@
+.contain {
+  margin: 0 160px 0 140px;
+}
+
+.top-text {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin-bottom: 110px;
+}
+
+.top-text div:last-child {
+  font-weight: bold;
+}
+
+.bacImg {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 60%;
+  height: 100%;
+  background-image: url(@/img/template/foodImg.png);
+  z-index: 0;
+  opacity: 90%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,118 @@
+.flex-column {
+  margin-top: 70px;
+  margin-left: 70px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+ul li {
+  list-style: disc;
+}
+
+.table {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.table thead {
+  background-color: #666666;
+}
+
+.table thead th {
+  color: #fff;
+  padding: 0.4rem 1.5rem;
+}
+
+.table thead,
+.table tbody {
+  vertical-align: middle;
+}
+
+.table tbody th {
+  font-family: Gmarket Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #B8B8B8;
+}
+
+.table tbody .clinic-hours td {
+  font-size: 18px;
+  font-weight: 500;
+  color: #006940;
+}
+
+.table tbody .other td {
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.doctor-head h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #000;
+}
+
+.doctor-head h1 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.doctor-field h3,
+.doctor-time h3 {
+  color: #fff;
+  background-color: #006940;
+  width: 192px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 9px 0 3px;
+  border-radius: 23.5px;
+  margin-bottom: 20px;
+}
+
+.doctor-field h5 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 36px;
+  color: #000;
+}
+
+.doctor-time p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #006940;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.doctor-career h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #006940;
+}
+
+.doctor-career ul {
+  padding-left: 23px;
+}
+
+.doctor-career ul li p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.absolute-img {
+  position: absolute;
+  bottom: 0;
+  right: 101px;
+}

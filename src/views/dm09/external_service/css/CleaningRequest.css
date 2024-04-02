@@ -1,0 +1,188 @@
+.top-text {
+  display: block;
+  font-weight: 300;
+}
+
+.top-text h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 38px;
+}
+
+.top-text h3.bg-black:nth-of-type(1) {
+  margin-top: 10px;
+}
+
+.text {
+  margin-bottom: 65px;
+}
+
+.text p {
+  margin: 0;
+  text-align: center;
+  color: #666;
+}
+
+.button-submit {
+  text-align: center;
+}
+
+.button-submit button {
+  background-color: #7dc242;
+  color: #fff;
+  width: 406px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+}
+
+/* 테이블 */
+tr:first-child {
+  border-bottom: 1px solid #bbb;
+}
+
+.select {
+  margin: 0 150px 45px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.select .table-head {
+  height: 95px;
+  padding: 27px 50px 18px;
+  background-color: #7dc242;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.select .table-head li {
+  color: #fff;
+}
+
+.select .table-head li.th01 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.select .table-head li.th02 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-right: 480px;
+}
+
+.select .table-head li.th03 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.select .table-head li.th03.line {
+  margin: 0 15px;
+}
+
+.select table {
+  display: table-cell;
+  width: 1618px;
+  padding: 0 50px;
+}
+
+.select th {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.1em;
+  text-align: left;
+  color: #000000;
+  text-align: center;
+}
+
+.select th:first-child {
+  text-align: start;
+}
+
+.select .table tbody tr th {
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.select .table tbody th,
+.select .table tbody td {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 292px;
+}
+
+.select .table tbody td.td01 {
+  padding-left: 40px;
+}
+
+.select .table tbody td.td02 {
+  padding-left: 50px;
+}
+
+.select .table tbody td.td03 {
+  padding-left: 45px;
+}
+
+.select .form-check-input {
+  border-radius: 0;
+  width: 36px;
+  height: 36px;
+  margin: 60px 0;
+  border: 1px solid;
+}
+
+.select tbody label {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  margin: 58px 15px;
+  color: #000;
+}
+
+.select table tr td input[type=checkbox] {
+  border-radius: 0;
+  width: 36px;
+  height: 36px;
+  border: 1px solid;
+}
+
+.select table tr td input[type=checkbox]:checked {
+  background: #7DC242;
+  border: none;
+}
+
+.select table tr td input[type=checkbox]::after {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  border-radius: 100%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.select table tr td input[type=checkbox]:checked::after {
+  width: 25px;
+  height: 25px;
+  background: url(@/img/check.png) 0 0 no-repeat;
+  background-size: auto;
+  border: 1px #fff;
+  margin-left: 9px;
+  margin-top: 9px;
+}
+
+table .table-group-divider .form-check-input[type=checkbox]:focus {
+  background-color: #7DC242;
+}
+
+.button-submit button:focus {
+  outline: 5px solid yellow;
+}

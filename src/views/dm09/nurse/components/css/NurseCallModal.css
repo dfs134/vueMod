@@ -1,0 +1,72 @@
+.modal-dialog {
+  max-width: 600px !important;
+}
+
+#nurse-call .modal-header {
+  background-color: #4DD56B;
+  padding: 74px 16px;
+}
+
+#nurse-call2 .modal-header {
+  background-color: #F36B58;
+  padding: 74px 16px;
+}
+
+.modal-header,
+.modal-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 80px 0 40px 0;
+}
+
+.modal-body h3 {
+  font-size: 47px;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 26px;
+  color: #333;
+}
+
+.modal-body h5 {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #666;
+}
+
+#nurse-call .modal-footer button {
+  padding: 20px 92px;
+  background-color: #4DD46B;
+  border-radius: 42.5px;
+  color: #fff;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44px;
+  margin-bottom: 61px;
+}
+
+#nurse-call2 .modal-footer button {
+  padding: 20px 92px;
+  background-color: #F36B58;
+  border-radius: 42.5px;
+  color: #fff;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44px;
+  margin-bottom: 61px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  opacity: 100%;
+}

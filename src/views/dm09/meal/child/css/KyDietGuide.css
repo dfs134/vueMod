@@ -1,0 +1,91 @@
+.flex-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.guide-left {
+  /* padding: 80px 0 50px 50px; */
+  width: 250px;
+  height: 1080px;
+  background-color: #006940;
+  display: flex;
+  flex-flow: column;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.guide-left h1 {
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 78px;
+}
+
+.guide-left ul {
+  padding-top: 105px;
+}
+
+.guide-left li button {
+  color: #fff;
+  padding: 21px 0 16px 50px;
+  line-height: 27px;
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: 400;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: start;
+  outline: none;
+}
+
+ul.txt-medium li button:focus {
+  border-radius: 35.5px 0 0 35.5px;
+  outline: 5px solid yellow;
+}
+
+.on-active {
+  font-weight: 500 !important;
+  background: #FFFFFF !important;
+  color: #006940 !important;
+  border-right: 0 !important;
+  border-radius: 35.5px 0 0 35.5px;
+  margin-right: -1px;
+}
+
+.guide-bottom h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 67px;
+}
+
+.guide-right {
+  width: 85%;
+  height: 100%;
+}
+
+.top-text {
+  flex-flow: column;
+  align-items: flex-start;
+  margin: 0px 110px;
+  padding-top: 78px;
+  padding-bottom: 74px;
+}
+
+.top-text h3 {
+  line-height: 48px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.top-text h5 {
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #000;
+  margin-bottom: 0;
+}

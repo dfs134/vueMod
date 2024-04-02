@@ -1,0 +1,74 @@
+.width-40 {
+  width: 40%;
+}
+
+.card {
+  box-shadow: none;
+}
+
+.table thead {
+  background-color: #7DC242;
+}
+
+.table thead th {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  padding: 14px 24px 8px 30px;
+  height: 70px;
+}
+
+.table tbody td {
+  padding-left: 30px;
+  height: 70px;
+}
+
+.table tbody tr td h6,
+.table tbody tr td p {
+  font-size: 25px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.contain .table {
+  display: table-cell;
+  width: 1380px;
+  text-align: center;
+}
+
+.table td {
+  padding-bottom: 0;
+}
+
+.table td p,
+.table td h6 {
+  margin-bottom: 0;
+}
+
+.padding {
+  margin: 10px 0;
+}
+
+.contain .table thead {
+  width: 100%;
+}
+
+.red {
+  color: #FF0000 !important;
+}
+
+.blue {
+  color: #0038FF !important;
+}
+
+.table>tbody>tr:nth-child(even)>td {
+  background-color: #EBF5DF;
+}
+
+.text-center .ms-1 {
+  height: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}

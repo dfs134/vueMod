@@ -1,0 +1,112 @@
+.contain {
+  margin: 0 120px;
+}
+
+.row .card.day {
+  /* width: calc(100% / 3 - 20px); */
+  width: 454px;
+  height: 71px;
+  overflow: hidden;
+  margin-bottom: 11px;
+  margin-right: 12px;
+  box-shadow: 2px 2px 10px 2px #33333340;
+  z-index: 2;
+  padding: 0;
+  background-color: #006940;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 21px;
+  border-radius: 0;
+}
+
+.row .card.day p:last-child {
+  background: #257F5C;
+  height: 100%;
+  width: 103px;
+  border-radius: 35.5px 0 0 35.5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.row .card.day p {
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin: 0;
+  font-weight: 500;
+  color: white;
+}
+
+.row .card.day:nth-of-type(2),
+.row .card.day:nth-of-type(3) {
+  background: #7DC242;
+}
+
+.row .card.day:nth-child(2) p:last-child,
+.row .card.day:nth-child(3) p:last-child {
+  background: #95CD67;
+}
+
+.row .card.day:nth-of-type(2) p,
+.row .card.day:nth-of-type(3) p {
+  font-weight: 400;
+}
+
+.dis-grid {
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+  width: 32.93333% !important;
+}
+
+.row .dis-grid .card.menu {
+  /* width: calc(100% / 3 - 20px); */
+  width: 454px;
+  height: 240px;
+  overflow: hidden;
+  margin-bottom: 11px;
+  margin-right: 11px;
+  padding: 15px 21px;
+  box-shadow: 2px 2px 10px 2px #33333340;
+  z-index: 2;
+  border-radius: 0;
+}
+
+.row .dis-grid .card.menu tbody {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.row .dis-grid .card.menu:nth-of-type(7),
+.row .dis-grid .card.menu:nth-of-type(8),
+.row .dis-grid .card.menu:nth-of-type(9) {
+  margin-bottom: 0;
+}
+
+.row .dis-grid .card.menu h3 {
+  line-height: 30px;
+  color: #006940;
+  position: absolute;
+}
+
+.row .dis-grid .card.menu h4 {
+  color: #666666;
+  margin: 0 auto;
+  line-height: 34px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* .row .dis-grid .card.menu:nth-of-type(1) tbody h4:first-child{
+    color: red;
+} */
+.row .dis-grid:nth-child(1) .card tbody h4:first-child {
+  color: #000000;
+}

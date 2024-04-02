@@ -1,0 +1,89 @@
+.flex-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.guide-left {
+  /* padding: 80px 0 50px 50px; */
+  width: 250px;
+  height: 1080px;
+  background-color: #006940;
+  display: flex;
+  flex-flow: column;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.guide-left h1 {
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 78px;
+}
+
+.guide-right {
+  width: 86%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.top-text {
+  flex-flow: column;
+  align-items: flex-start;
+  margin: 0px 100px;
+  padding-top: 78px;
+  padding-bottom: 74px;
+}
+
+.contain {
+  margin: 0 100px;
+}
+
+.contain .table {
+  display: table-cell;
+  width: 1380px;
+  padding: 0 23px;
+  box-shadow: 4px 4px 10px 5px rgba(51, 51, 51, 0.25);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.contain .table thead {
+  border-bottom: 2px solid;
+}
+
+.guide-bottom h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 67px;
+}
+
+.contain .table th,
+td {
+  font-size: 25px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.contain .table th {
+  padding: 0.85rem 1.5rem 0.6rem 1.5rem;
+}
+
+.contain .table td {
+  padding: 18px 0 19px;
+  color: #666666;
+}
+
+.contain .table .bg-color {
+  background: #EBF5DF;
+}
+
+.contain .table .align-start {
+  text-align: start;
+  padding-left: 30px;
+}

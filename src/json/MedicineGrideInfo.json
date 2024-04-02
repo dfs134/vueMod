@@ -1,0 +1,72 @@
+[
+  {
+    "classification": "주사",
+    "medicineName": "스모프카비벤주 [986mL/Bag]",
+    "adjustableAmount": "1",
+    "oneDose": "1회",
+    "note": "-"
+  },
+  {
+    "classification": "주사",
+    "medicineName": "히시파겐씨주(고시비급여) [20mL/A]",
+    "adjustableAmount": "2",
+    "oneDose": "1회",
+    "note": "-"
+  },
+  {
+    "classification": "주사",
+    "medicineName": "가스터 주 [20mg/V]",
+    "adjustableAmount": "1",
+    "oneDose": "1회",
+    "note": "-"
+  },
+  {
+    "classification": "내복약",
+    "medicineName": "파리에트정 [10mg/T]",
+    "adjustableAmount": "1",
+    "oneDose": "1회",
+    "note": "1일 1회 아침 식후 30분에"
+  },
+  {
+    "classification": "내복약",
+    "medicineName": "렉사프로정 [10mg/T]",
+    "adjustableAmount": "1",
+    "oneDose": "1회",
+    "note": "1일 1회 아침 식후 30분에"
+  },
+  {
+    "classification": "내복약",
+    "medicineName": "레코미드정 [100mg/T]",
+    "adjustableAmount": "1",
+    "oneDose": "1회",
+    "note": "1일 1회 저녁 식후 30분에"
+  },
+  {
+    "classification": "내복약",
+    "medicineName": "레날민정;투석 [T]",
+    "adjustableAmount": "1",
+    "oneDose": "1회",
+    "note": "1일 1회 저녁 식후 30분에"
+  },
+  {
+    "classification": "내복약",
+    "medicineName": "엔커버액-옥수수 [200ml/Pack]",
+    "adjustableAmount": "2",
+    "oneDose": "1회",
+    "note": "1일 1회 아침 식후 30분에"
+  },
+  {
+    "classification": "내복약",
+    "medicineName": "엔커버액-옥수수 [200ml/Pack]",
+    "adjustableAmount": "3",
+    "oneDose": "1회",
+    "note": "1일 1회 아침 식후 30분에"
+  },
+  {
+    "classification": "내복약",
+    "medicineName": "엔커버액-옥수수 [200ml/Pack]",
+    "adjustableAmount": "1",
+    "oneDose": "1회",
+    "note": "1일 1회 아침 식후 30분에"
+  }
+]

@@ -1,0 +1,107 @@
+/* 포커스 이벤트 */
+.big-img a:focus img,
+.small-img a:focus img {
+  width: 104%;
+  height: 270px;
+  opacity: 80%;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-left: -10px;
+  border: 5px solid yellow;
+}
+
+/* 표준 포커스 */
+.contain.standard .row a:focus {
+  width: 520px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  height: 270px;
+  border: 5px solid yellow;
+}
+
+/* 큰 포커스 */
+.contain.big .row a:focus {
+  width: 520px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  height: 520px;
+  border: 5px solid yellow;
+}
+
+/* 작은 포커스 */
+.contain.small .row a:focus {
+  width: 270px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  height: 270px;
+  border: 5px solid yellow;
+}
+
+/* 표준 리스트 */
+.contain.standard a .col:focus {
+  width: 520px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 120px;
+  border: 5px solid yellow;
+}
+
+/* 큰 리스트 */
+.contain.big a .col:focus {
+  width: 520px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 140px;
+  border: 5px solid yellow;
+}
+
+/* 작은 리스트 */
+.contain.small a .col:focus {
+  width: 520px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 80px;
+  border: 5px solid yellow;
+}
+
+/* 리스트 */
+.contain.standard .row button:focus {
+  border: 5px solid yellow !important;
+}
+
+/* 의사 카드 */
+.contain.doctor .row a:focus .card {
+  /* border: 2px solid black; */
+  width: 550px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border: 5px solid yellow;
+}
+
+/* 간호사 */
+.nurse-btn button:focus {
+  outline: none;
+  border: 5px solid yellow;
+  background-color: RGB(125, 194, 66, 0.6);
+}
+
+.nurse-btn button:focus h6 {
+  color: #fff !important;
+}
+
+#nurse-call .modal-footer button:focus,
+#nurse-call2 .modal-footer button:focus {
+  border: 5px solid yellow !important;
+}
+
+.add-block {
+  display: block !important;
+}

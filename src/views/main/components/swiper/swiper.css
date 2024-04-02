@@ -1,0 +1,34 @@
+.wiper-width, .swiper.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-watch-progress.swiper-backface-hidden{
+    height: 100%;
+}
+.swiper-width{
+    padding: 0 !important;
+    margin: auto !important;
+    width: 100% !important;
+}
+.swiper-wrapper .title{
+    widows: 100%;
+}
+.banner-top .name, .title-right .name{
+    color: rgb(48, 131, 48);
+}
+.banner-top .info{
+    font-size: 1.1rem;
+    color: #333;
+}
+.wrap-swiper{
+    background: #ddd;
+}
+.wrap-swiper img{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide button{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+.swiper-pagination-bullet{
+  widows: 30px;
+  height: 30px;
+}

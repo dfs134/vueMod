@@ -1,0 +1,146 @@
+.flex-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 1080px;
+}
+
+.guide-left {
+  width: 250px;
+  height: 1080px;
+  background-color: #652d8d;
+  display: flex;
+  flex-flow: column;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.guide-left {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 78px;
+}
+
+.guide-left .selet-type {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+.guide-left .selet-type h3 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+.guide-bottom h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 67px;
+}
+
+.guide-right {
+  width: 86%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.top-text {
+  flex-flow: column;
+  align-items: flex-start;
+  margin: 0px 100px;
+  padding-top: 78px;
+  padding-bottom: 35px;
+}
+
+.top-text .txt-medium {
+  margin-bottom: 0;
+}
+
+.guide-right .display-flex {
+  line-height: 0;
+  margin-top: 35px;
+  width: 95%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guide-right .select-item button {
+  font-size: 25px;
+  font-weight: 400;
+  border: none;
+  background: none;
+  border-right: 1px solid;
+  padding: 10px 30px;
+  height: 36px;
+  color: #666;
+  padding-bottom: 5px;
+}
+
+.guide-right .select-item button:first-child {
+  padding-left: 0;
+}
+
+.guide-right .select-item button:last-child {
+  border: none;
+}
+
+.patient-info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.patient-info h3,
+.patient-info p {
+  font-size: 25px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.patient-info h3 {
+  font-weight: 400;
+  margin-right: 22px;
+}
+
+.patient-info p {
+  font-weight: 300;
+}
+
+.guide-right .contain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+  margin: 0 110px 0 100px;
+}
+
+.on-active {
+  font-weight: 500 !important;
+  color: #AACE37 !important;
+  font-weight: 500;
+}
+
+.on-active2 {
+  color: #652D8D !important;
+}
+
+.guide-left .selet-type h3:focus {
+  outline: 5px solid yellow;
+}
+
+.guide-right .select-item button a:focus {
+  font-weight: bold;
+  color: #652D8D;
+  opacity: 70%;
+}
